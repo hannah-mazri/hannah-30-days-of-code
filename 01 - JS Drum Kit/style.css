@@ -1,0 +1,54 @@
+html {
+    font-size: 10px;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7306696c-13fc-4169-b666-3a989e07d346/dcn5auk-0acd1306-8398-471e-85a7-3b1495d8f9c8.png/v1/fill/w_1024,h_1733,strp/bongo_cat_meme_by_mandash1996_dcn5auk-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTczMyIsInBhdGgiOiJcL2ZcLzczMDY2OTZjLTEzZmMtNDE2OS1iNjY2LTNhOTg5ZTA3ZDM0NlwvZGNuNWF1ay0wYWNkMTMwNi04Mzk4LTQ3MWUtODVhNy0zYjE0OTVkOGY5YzgucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.E4XCOgoqRT7hVZ99Wo8fkOfzZJnOpuz4HkvMr5LEZ1o)
+    0px 0px fixed;
+    background-size: contain;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #f08194;
+    box-shadow: 0 0 1rem #f08194;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffcad8;
+    /*text-shadow: -1px 0 #ffcad8, 0 1px #ffcad8, 1px 0 #ffcad8, 0 -1px #ffcad8;*/
+}
