@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>03 CSS Variables and JS</title>
+</head>
+<body>
+<h2>Update CSS Variables with <span class="base-color">JavaScript</span></h2>
+<div>
+    <label>Spacing
+        <input type="range" name="spacing">
+    </label>
+
+    <label>Blur
+        <input type="range" name="blur">
+    </label>
+
+    <label>Base Color
+        <input type="color" name="base-color">
+    </label>
+</div>
+
+<img class="img" src="https://images.unsplash.com/photo-1475518112798-86ae358241eb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="A cat opening its mouth widely">
+<style>
+    :root {
+        --base-color: #f097a5;
+        --spacing: 20px;
+        --blur: 0px;
+    }
+    .img {
+        background-color: var(--base-color);
+        padding: var(--spacing);
+        filter: blur(var(--blur));
+        border-radius: 8px;
+        margin-top: 20px;
+        width: 80%;
+    }
+</style>
+<!--<script></script>-->
+</body>
+</html>
